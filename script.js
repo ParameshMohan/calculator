@@ -20,7 +20,9 @@ equalBtn.addEventListener('click',function(){
 
     else{
         let value = eval(screen.value);
+        console.log(screen.value);
         screen.value = value;
+
     }
      
 });
